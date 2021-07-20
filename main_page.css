@@ -1,0 +1,335 @@
+body {
+  background-color: #eaeded !important;
+}
+
+/* nav-bar section */
+#search-bar {
+  padding-right: 900px;
+}
+
+#Amazon-icon {
+  padding: 0px;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+/* all products nav bar section */
+
+#search-icon {
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+}
+#search-bar {
+  width: 1220px;
+  padding-right: 50px;
+}
+
+#all_products {
+  background-color: #232f3e;
+  list-style: none;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI";
+  margin-bottom: 0px;
+}
+
+#all_products a {
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 40px;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+/* main page section  */
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+#background-img {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 400px;
+  background-image: url(Assets/slideshow/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#products {
+  margin-left: 50px;
+  margin-right: 50px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+#products > * {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  object-fit: cover;
+}
+.card-heading {
+  padding-bottom: 10px;
+}
+.see-more {
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  color: #4499b3;
+}
+.see-more:hover {
+  text-decoration: underline;
+  color: coral;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+.four-img {
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: repeat(2, 50%);
+}
+.four-img img {
+  padding: 10px;
+}
+.image-caption {
+  display: flex;
+  flex-direction: column;
+}
+.image-caption small {
+  padding: 5px;
+  padding-left: 10px;
+}
+#product4 {
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  border: 0px;
+}
+.half-card {
+  padding: 20px;
+  margin: 15px 15px 15px 15px;
+  border: 0.1px solid #eaeded;
+}
+#second-half-card {
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+#product5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 0px;
+  border: 0px;
+}
+
+#product8,
+#product9 {
+  grid-column: 1/5;
+}
+.carousal {
+  width: auto;
+  height: auto;
+  max-width: 270px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+#heading-carousal {
+  display: flex;
+  flex-direction: row;
+}
+
+/* back to top section and footer starts from here */
+#back-to-top {
+  background-color: #3d4e63;
+  padding-top: 15px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* footer section */
+#get-to-know {
+  background-color: #232f3e;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.info-card {
+  padding: 30px 30px 0px 30px;
+  padding-left: 20px;
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.info-card h6 {
+  font-weight: bold;
+}
+.info-card a {
+  text-decoration: none;
+  color: #d7dee2;
+}
+.info-card a:hover {
+  text-decoration: underline;
+  color: #d7dee2;
+}
+.info-card a p {
+  margin-bottom: 8px;
+}
+#footerline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* country change and amazon icon section */
+.container-bottom {
+  margin-left: 550px;
+  margin-right: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-bottom #amazon-icon {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-right: 100px;
+}
+#country-change {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row;
+  border: 1px solid #d7dee2;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+#country-change i {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 15px;
+  padding-top: 5px;
+}
+#arrow {
+  padding-left: 20px;
+  padding-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+#arrow i {
+  padding-top: 0px;
+}
+
+/* countries section */
+#countries {
+  margin-left: 450px;
+  margin-top: 40px;
+  margin-right: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #d7dee2;
+  font-size: l20px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+#countries p {
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+
+#countries a {
+  text-decoration: none;
+  color: #d7dee2;
+}
+#countries a:hover {
+  text-decoration: underline;
+  color: #d7dee2;
+}
+
+/* other services and footer part */
+#other-services {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+}
+.services h6 {
+  margin: 0px;
+  font-size: 12px;
+  color: #d7dee2;
+}
+.services:hover {
+  text-decoration: underline;
+  text-decoration-color: #83878b;
+}
+.services small {
+  font-size: 10px;
+  color: #83878b;
+}
+#services10 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+/* copyright section  */
+#copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+#copyright a h6,
+#copyright h6 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  color: #d7dee2;
+}
+#copyright a {
+  text-decoration: none;
+}
+#copyright a:hover {
+  text-decoration: underline;
+}
+
+/* repsomsive making */
+@media all and (max-width: 1600px) {
+  #navbarSupportedContent {
+    padding-left: 0px;
+  }
+  #search-bar {
+    width: 900px;
+    padding-right: 20px;
+  }
+
+#second-half-card img {
+  width: 320px;
+}
+#product5 img {
+  width: 721px;
+}
+}
